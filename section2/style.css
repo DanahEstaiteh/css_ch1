@@ -1,79 +1,90 @@
 .container{
-  position: absolute;
-  left: 200px;
-  right: 200px;
-  float: left;
-  width:80%;  
-  margin-top: 100px;
-}
-.first_div{
+    position: absolute;
+    left: 200px;
+    right: 200px;
     float: left;
-    padding: 6px;
-    margin-top: 6px;
-    width: 400px;
-    height: 420px;
-}
-.image{
-  margin-top: 60px;
-  width: 100%;
-  height: 100%;
-}
-.second_div{
-    float: left;
-    padding: 6px;
-    margin-top: 6px;
-    width: 200px;
-    height: 200px;
-}
-.bottom-left{
-    position: relative;
-    left: 8px;
-    bottom: 40px;
-}
-.secondary-topic{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-.main-topic{
-    color:gray;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-@media (max-width:480px){
-.container{
-    width: 40%;
-}
-.first_div{
-    float: left;
-    padding: 6px;
-    margin-top: 6px;
-    width:50%;
+    width:80%;  
+    margin-top: 100px;
+  }
+  .main_card{
+      float: left;
+      margin-bottom: 10px;
+      width: 410px;
+      height: 420px;
+      margin-right: 10px;
+  }
+  .image_card{
+    width: 100%;
     height: 100%;
-}
-}
-@media (max-width:900px){
-    .container{
-        width: 60%;
+  }
+  .mini_card{
+      float: left;
+      margin-bottom: 20px;
+      width: 200px;
+      height: 200px;
+      padding-right: 10px;
+  }
+  .image_info{
+      position: relative;
+      left: 8px;
+      bottom: 40px;
+  }
+  .action{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .place_name{
+      color:gray;
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  @media only screen and (max-width:400px){
+  .container{
+      width: 100%;
+  }
+  .main_card{
+      float: left;
+      padding: 6px;
+      margin-top: 70px;
+      width:100%;
+      height: 100%;
+  }
+  .mini_card{
+      float: left;
+      margin-bottom: 20px;
+      width:100%;
+      height: 100%;
+      padding-right: 10px;
+  }
+  .image_card{
+      max-width:100%;
+      height: 100%;
     }
-}
-hr{
-    position: absolute;
-    left: 40%;
-    width: 80px;
-    top: 15px;
-    
-    
-    
-    
-}
-.heading{
-    position: absolute;
-    left: 15%;
-    margin-top: -50px;
-    width: 50%;
-    font-weight: bold;
-    font-size: 27px;
-    text-align: center;
-    color:rgb(78, 77, 77) ;
-}
+  }
+  @media only screen and (max-width:900px){
+      .container{
+          width: 60%;
+      }
+  }
+  hr{
+      position: absolute;
+      left: 40%;
+      width: 80px;
+      top: 15px;
+      
+      
+      
+      
+  }
+  .heading{
+      position: absolute;
+      left: 15%;
+      margin-top: -120px;
+      width: 50%;
+      font-weight: bold;
+      font-size: 27px;
+      text-align: center;
+      color:rgb(78, 77, 77) ;
+  }
+  
