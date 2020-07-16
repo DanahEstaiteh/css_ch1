@@ -9,29 +9,24 @@ h1{
     width: 800px;
 }
 
-.image1{
+.horse_image{
     position: relative;
     top: -70px;
     width: 400px;
-    clear: right;
     opacity: 0.3;
     height: auto;
    
 
 }
 .container__content{
-    position: relative;
     width: 300px;
     float: left;
-    padding-top: 60px;
-    top: -25px;
+    padding-top: 35px;
     line-height: 25px;
     font-style: normal;
-    opacity: 0.7;
-    z-index: 2;
+
 }
-.bed_image{
-    max-width: auto;
+.pop_image{
     width: 600px;
     position: relative;
     top: -350px;
@@ -57,10 +52,10 @@ hr{
     
 }
 @media (max-width: 600px){
-    .bed_image{
+    .pop_image{
         opacity: 0;
     }
-    .image1{
+    .horse_image{
         width: 100%;
         height: auto;
     }
